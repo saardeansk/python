@@ -22,7 +22,7 @@ a=10
 a=sum-a
 b=sum-b
   swapped
-                                   example program
+                                   example program in python
    n=int(input("enter the number of times to swap the variable : "))
 for i in range(n):
     a=int(input("enter the value of a : "))
