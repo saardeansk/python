@@ -1,0 +1,43 @@
+                                                                   python programming
+     1.module1...............
+      1. Variables & Data Types
+       2. Type Casting (Conversion)
+      3. Input & Output
+      4. Operators
+      5. Control Flow (if-else, loops preview)
+  Memory Tip
+AND → Masking
+OR → Setting
+XOR → Encryption / Toggle
+NOT → Invert
+<< → Multiply
+
+>> → Divide
+examples:
+x=10
+t=str(x)
+print(t)
+10
+e=float(x)
+print(e)
+10.0
+type(x)
+<class 'int'>
+type(e)
+<class 'float'>
+type(t)
+<class 'str'>
+t=10
+u=35
+print(t&u)
+2
+print(t|u)
+43
+print(t^u)
+41
+print(~t)
+-11
+print(t<<2)
+40
+print(t>>2)
+2
