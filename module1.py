@@ -10,4 +10,3 @@ for i in range(number):
    print("no discount,  you need discount purchase things above 500")
     2.question
     print(sum([1+2+3]))
-    3.question
