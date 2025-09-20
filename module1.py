@@ -7,6 +7,6 @@ for i in range(number):
    print(f"discount applied, 30%")
   else:
    print(bool(0))
-   print("no discount,  you  need  discount purchase things above 500")
+   print("no discount,  you  need  discount purchase things  above  500")
     2.question
     print(sum([1+2+3]))
