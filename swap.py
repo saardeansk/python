@@ -32,7 +32,7 @@ for i in range(n):
        print("give the value it becomes only zero")
        continue
     if(a==b):
-       print ("both the a and b are same value")
+       print ("both the a and  b are same value")
        continue
     if(a==0 or b==0 or a!=0 or b!=0):
         print("the value of a and b: ",a,b)
