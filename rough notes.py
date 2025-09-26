@@ -2,7 +2,7 @@
  1. basics
 What is Python?
    Interpreted , high-level , portable, dynamically typed.
-Python Syntax
+syntax
    Indentation (no {} like C/C++/Java).
 Comments:
    # single-line, """ multi-line """.
