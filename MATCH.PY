@@ -1,5 +1,5 @@
 print("1.MONDAY\n","2.TUESDAY\n" ,"3.WEDNESDAY \n","4.THURSDAY\n","5.FRIDAY\n" ,"6.SATURDAY\n","7.SUNDAY\n")
-choice=int(input("enter the choice:  "))
+choice=int(input("enter  the choice:  "))
 match choice:
  case 1:
      print("TODAY IS  : MONDAY")
@@ -16,4 +16,4 @@ match choice:
  case 7:
      print("TODAY IS  : SUNDAY")  
  case _:
-     print("GIVE  THE  VALID  INPUT")
+     print("GIVE  THE   VALID  INPUT")
