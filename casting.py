@@ -4,5 +4,5 @@ c=int(a)
 print(type(a))
 print(type(b))
 print(c)
-d=a+b
+d = a+b
 print(d)
