@@ -1,5 +1,5 @@
 a = "009"
-b=5000
+b = 5000
 c=int(a)
 print(type(a))
 print(type(b))
