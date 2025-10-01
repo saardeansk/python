@@ -1,4 +1,4 @@
-a="009"
+a = "009"
 b=5000
 c=int(a)
 print(type(a))
