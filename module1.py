@@ -1,5 +1,5 @@
 1.question
-number=int(input("enter the number of custmer"))
+number=int(input("enter  the number of custmer"))
 for i in range(number):
   bill=int(input("bill amount"))
   if(bill >= 500):
