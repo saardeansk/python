@@ -108,7 +108,7 @@ def register():
             flash("Email already registered")
     return render_template('register.html')
 
-# ---- Logout ----
+ # ---- Logout ----
 @app.route('/logout')
 def logout():
     session.clear()
@@ -210,5 +210,6 @@ def about():
 # ---- Run App ----
 if __name__ == '__main__':
     app.run(debug=True)
+
 
 
