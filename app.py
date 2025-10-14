@@ -112,7 +112,7 @@ def register():
 @app.route('/logout')
 def logout():
     session.clear()
-    return redirect(url_for('login'))
+     return redirect(url_for('login'))
 
 # ---- Home ----
 @app.route('/home')
@@ -210,4 +210,5 @@ def about():
 # ---- Run App ----
 if __name__ == '__main__':
     app.run(debug=True)
+
 
