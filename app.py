@@ -16,7 +16,7 @@ if not os.path.exists(UPLOAD_FOLDER):
 # ---------- Database Setup ----------
 conn = sqlite3.connect('database.db')
 c = conn.cursor()
-c.execute('''CREATE TABLE IF NOT EXISTS users
+c.execute('''CREATE TABLE  IF NOT EXISTS users
              (id INTEGER PRIMARY KEY AUTOINCREMENT, username TEXT, email TEXT UNIQUE, password TEXT)''')
 c.execute('''CREATE TABLE IF NOT EXISTS history
              (id INTEGER PRIMARY KEY AUTOINCREMENT, user_id INTEGER, file_path TEXT,
@@ -210,3 +210,4 @@ def about():
 # ---- Run App ----
 if __name__ == '__main__':
     app.run(debug=True)
+
