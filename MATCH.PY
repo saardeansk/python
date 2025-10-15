@@ -13,7 +13,7 @@ match choice:
  case 5:
      print("TODAY IS  : FRIDAY")
  case 6:
-     print("TODAY IS  : SATURDAY")
+     print("TODAY IS  :  SATURDAY")
  case 7:
      print("TODAY IS  :  SUNDAY")  
  case _:
