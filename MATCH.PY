@@ -17,4 +17,4 @@ match choice:
  case 7:
      print("TODAY IS   :  SUNDAY")  
  case _:
-     print("GIVE   THE   VALID  INPUT")
+     print("GIVE    THE   VALID  INPUT")
