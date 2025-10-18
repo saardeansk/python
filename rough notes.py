@@ -1,7 +1,7 @@
                             PYTHON COURSE
  1. basics
 What is Python?
-   Interpreted , high-level  , portable, dynamically  typed.
+   Interpreted , high-level  , port able, dynamically  typed.
 syntax
    Indentation (no {} like  C/C++/Java).
 Comments:
