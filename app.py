@@ -18,7 +18,7 @@ conn = sqlite3.connect('database.db')
 c = conn.cursor()
 c.execute('''CREATE TABLE  IF NOT EXISTS users
              (id INTEGER PRIMARY KEY AUTOINCREMENT, username TEXT, email TEXT UNIQUE, password TEXT)''')
-c.execute('''CREATE TABLE IF NOT EXISTS history
+c.execute('''CREATE TABLE I F NOT EXISTS history
              (id INTEGER PRIMARY KEY AUTOINCREMENT, user_id INTEGER, file_path TEXT,
              plant_name TEXT, plant_age TEXT, disease TEXT, cause TEXT,
              treatment TEXT, affected_ratio REAL, save_prob TEXT, user_note TEXT,
