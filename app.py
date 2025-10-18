@@ -37,7 +37,7 @@ def detect_disease(image_path):
     ratio = (cv2.countNonZero(mask) / (image.size / 3)) * 100
 
     if ratio > 15:
-        disease = "Leaf is diseased"
+        disease = "Leaf is  diseased"
         cause = "Possible heat stress or lack of water"
         treatment = "Provide water, shade, and check pesticides"
         save_prob = "70%"
