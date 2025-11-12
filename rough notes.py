@@ -1,5 +1,5 @@
                  PYTHON COURSE
- 1. basics
+ 1.  basics
 What is Python?
    Interpreted , high-level  , portable, dynamically  typed.
 syntax
