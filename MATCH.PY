@@ -3,7 +3,7 @@ print("Any one of choice above/n")
 choice=int(input("enter  the choice:  "))
 match choice:
  case 1:
-     print("TODAY IS  : MONDAY")
+     print("TODAY IS  :  MONDAY")
  case 2:
      print("TODAY IS  : TUESDAY")
  case 3:
