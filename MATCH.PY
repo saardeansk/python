@@ -11,7 +11,7 @@ match choice:
  case 4:
      print("TODAY IS  : THURSDAY")
  case 5:
-     print("TODAY IS  : FRIDAY")
+     print("TODAY IS  :  FRIDAY")
  case 6:
      print("TODAY IS  :  SATURDAY")
  case 7:
