@@ -5,4 +5,4 @@ c=int (a)
 print(type(b))
 print(c)
 d = a+b
-print( d)
+print(d)
