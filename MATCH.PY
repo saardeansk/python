@@ -1,4 +1,4 @@
-print("1.MONDAY \n", "2.TUESDAY \n" ,"3.WEDNESDAY \n","4.THURSDAY\n","5.FRIDAY\n" ,"6.SATURDAY\n","7.SUNDAY\n")
+print("1. MONDAY \n", "2.TUESDAY \n" ,"3.WEDNESDAY \n","4.THURSDAY\n","5.FRIDAY\n" ,"6.SATURDAY\n","7.SUNDAY\n")
 print("Any one of choice above/n")
 choice=int(input("enter  the choice:  "))
 match choice:
