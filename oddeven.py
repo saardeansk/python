@@ -4,6 +4,6 @@ for i in range(n):
  if a%2==0:
       print("the given ",a,"is even")
  elif a%2!=0:
-      print("the given ",a," is odd")
+      print("the given ",a,"  is odd")
   else 
        print ("give the  valid input")
