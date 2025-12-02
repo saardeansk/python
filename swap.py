@@ -30,7 +30,7 @@ for i in range(n):
     sm=a+b
     if(a==0 and b==0):
        print("give the value it becomes only zero")
-       continue
+        continue
     if(a==b):
        print ("both the a and  b are same value")
        continue
