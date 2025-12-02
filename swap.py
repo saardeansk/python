@@ -1,4 +1,4 @@
- swaping  logic  using  XOR  (or)  sum logic
+ swaping   logic  using  XOR  (or)  sum logic
              ( XOR )
    a=a^b
    b=a^b
