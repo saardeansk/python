@@ -26,7 +26,7 @@ type(x)
 type(e)
 <class 'float'>
 type(t)
-<class 'str'>
+<class  'str'>
 t=10
 u=35
 print(t&u)
