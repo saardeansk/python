@@ -1,4 +1,4 @@
-# Write code below 💖
+--------------------------------------------SIMPLE CODE FOR IF CONDITION SEE IN BELOW FOR WHOLE BASIC IN IT---------------------------------------------------------------------------
 n = 100
 grade_t = input("enter the grade:")
 try:
@@ -12,7 +12,9 @@ try:
       print("enter the value betweent the 0-100  as input")
 except ValueError:
     print("enter the valid input")
-    BASIC CODE FOR ELIF
+
+----------------------------------------------------------BASIC CODE FOR ELIF-------------------------------------------------------------------------------------------------------
+
 n = int(input("enter the number times to execute the program"))
 for i in range (0,n):
    phr = input("enter the value between the 0-14 :")
