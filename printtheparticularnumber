@@ -13,3 +13,21 @@ try:
 except ValueError:
     print("enter the valid input")
     BASIC CODE FOR ELIF
+n = int(input("enter the number times to execute the program"))
+for i in range (0,n):
+   phr = input("enter the value between the 0-14 :")
+   try:
+      ph = int(phr)
+      if(ph>=0 and ph<=14):
+         if(ph>7):
+             print("Basic")
+         elif(ph<7):
+             print("Acidic")
+         else:
+             print("Neutral")
+      else:
+        print("enter the valid number between the 0-14")
+   except ValueError:
+      print("give the inputs as numbers")
+else:
+    print("program should be in",n ,"times")
