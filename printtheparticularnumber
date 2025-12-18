@@ -1,0 +1,14 @@
+# Write code below 💖
+n = 100
+grade_t = input("enter the grade:")
+try:
+    grade = int(grade_t)
+    if(grade>=0 and grade<=100):
+       if(grade >=55):
+          print ("you are passed")
+       else:
+          print("sorry you are failed")
+    else:
+      print("enter the value betweent the 0-100  as input")
+except ValueError:
+    print("enter the valid input")
