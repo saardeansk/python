@@ -12,3 +12,4 @@ try:
       print("enter the value betweent the 0-100  as input")
 except ValueError:
     print("enter the valid input")
+    BASIC CODE FOR ELIF
