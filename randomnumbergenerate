@@ -20,7 +20,7 @@ elif(rand == 8):
   print("Outlook not so good.")
 elif(rand == 9):
   print("Very doubtful.")
-------------------------------------------------  in choicesrandomly pick any on of it--------------------------------------------------------
+------------------------------------------------  in choices randomly pick any on of it--------------------------------------------------------
 import random
 input(" try your")
 options = ["Yes - definitely .","It is decidedly so .","Without a doubt.","Reply hazy, try again.",
