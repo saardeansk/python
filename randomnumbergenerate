@@ -1,0 +1,23 @@
+----------------------------------------------it set by to win the game only execute within the  randint--------------------------------------------------
+import random
+options = input(" try your luck:")
+rand = random.randint(1,9)
+if(rand == 1):
+  print("Yes - definitely .")
+elif(rand == 2):
+  print("It is decidedly so .")
+elif(rand == 3):
+  print("Without a doubt.")
+elif(rand == 4):
+  print("Reply hazy, try again.")
+elif(rand == 5):
+  print("Ask again later.")
+elif(rand == 6):
+  print("Better not tell you now.")
+elif(rand == 7):
+  print("My sources say no.")
+elif(rand == 8):
+  print("Outlook not so good.")
+elif(rand == 9):
+  print("Very doubtful.")
+------------------------------------------------  in choicesrandomly pick any on of it--------------------------------------------------------
