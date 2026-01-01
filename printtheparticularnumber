@@ -1,4 +1,4 @@
---------------------------------------------SIMPLE CODE FOR IF CONDITION SEE IN BELOW FOR WHOLE BASIC IN    IT---------------------------------------------------------------------------
+ --------------------------------------------SIMPLE CODE FOR IF CONDITION SEE IN BELOW FOR WHOLE BASIC IN    IT---------------------------------------------------------------------------
 n = 100
 grade_t = input("enter the grade:")
 try:
