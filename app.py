@@ -4,7 +4,7 @@ from datetime import datetime
 from werkzeug.utils import secure_filename
 import cv2
 import numpy as np
-from PIL import Image
+from PIL import Image 
 import sqlite3
 
 app = Flask(__name__) 
