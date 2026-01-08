@@ -7,7 +7,7 @@ import numpy as np
 from PIL import Image
 import sqlite3
 
-app = Flask(__name__)
+app = Flask(__name__) 
 app.secret_key = "plantdoctor_secret"
 UPLOAD_FOLDER = 'static/uploads'
 if not os.path.exists(UPLOAD_FOLDER):
