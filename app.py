@@ -11,7 +11,7 @@ app = Flask(__name__)
 app.secret_key = "plantdoctor_secret"
 UPLOAD_FOLDER = 'static/uploads'
 if not os.path.exists(UPLOAD_FOLDER):
-    os.makedirs(UPLOAD_FOLDER)
+     os.makedirs(UPLOAD_FOLDER)
 
 # ---------- Database Setup ----------
 conn = sqlite3.connect('database.db')
