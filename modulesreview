@@ -14,7 +14,7 @@ NOT →   Invert
 >> →   Divide.   
 examples:
 x=10
-t=str(x)
+t=str(x)b 
 print(t)
 10
 e=float(x)
