@@ -13,7 +13,7 @@ NOT →   Invert
 << → Multiply
 >> →   Divide.   
 examples:
-x=10
+x=10 
 t=str(x)b 
 print(t)
 10
