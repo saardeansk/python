@@ -10,7 +10,7 @@ elif(rand == 3):
   print("Without a doubt.")
 elif(rand == 4):
   print("Reply hazy, try again.")
-elif(rand == 5):
+elif(rand == 5): 
   print("Ask again later.") 
 elif(rand == 6):  
   print("Better not tell you now.")
