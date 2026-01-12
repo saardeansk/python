@@ -12,7 +12,7 @@ elif(rand == 4):
   print("Reply hazy, try again.")
 elif(rand == 5):
   print("Ask again later.") 
-elif(rand == 6):
+elif(rand == 6):  
   print("Better not tell you now.")
 elif(rand == 7):
   print("My sources say no.")
