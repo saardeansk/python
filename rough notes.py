@@ -5,7 +5,7 @@ What is Python?
 syntax
     Indentation (no {} like  C/C++/Java).
 Comments:
-   # single-line, """ multi-line """.
+   # single-line, """ multi-line """. 
 Variables
    No need  to  declare  type, Python  assigns automatically  .....
 Input/Output=input()/print()
