@@ -5,7 +5,7 @@ try:
     grade = int(grade_t)
     if(grade>=0 and grade<=100):
        if(grade >=55):
-          print ("you are passed")
+          print ("you are passed") 
        else:
           print("sorry you are failed")
     else:
