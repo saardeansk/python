@@ -10,7 +10,7 @@ match choice:
      print("TODAY IS  : WEDNESDAY")
  case 4:
      print("TODAY IS  : THURSDAY")
- case 5:
+ case 5: 
      print("TODAY IS  :  FRIDAY")
  case 6: 
      print("TODAY IS  :  SATURDAY")
