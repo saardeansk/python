@@ -13,7 +13,7 @@ UPLOAD_FOLDER = 'static/uploads'
 if not os.path.exists(UPLOAD_FOLDER):
      os.makedirs(UPLOAD_FOLDER)
 
-# ---------- Database Setup ----------
+# ---------- Database Setup ---------- 
 conn = sqlite3.connect('database.db')
 c = conn.cursor()
 c.execute('''CREATE TABLE  IF NOT EXISTS users
