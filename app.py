@@ -3,7 +3,7 @@ import os
 from datetime import datetime
 from werkzeug.utils import secure_filename
 import cv2
-import numpy as np
+import numpy as np 
 from PIL import Image 
 import sqlite3
 
