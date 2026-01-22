@@ -10,7 +10,7 @@ AND →  Masking
 OR →  Setting   
 XOR →  Encryption   /   Toggle
 NOT →   Invert
-<< → Multiply
+<< → Multiply 
 >> →   Divide.   
 examples: 
 x=10 
