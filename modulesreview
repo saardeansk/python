@@ -15,7 +15,7 @@ NOT →   Invert
 examples: 
 x=10 
 t=str(x)b 
-print(t) 
+print(t)  v
 10
 e=float(x)
 print(e)
