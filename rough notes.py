@@ -11,3 +11,4 @@ Variables
 Input/Output=input()/print()
    Always get  the  input from  user   in  string no need any changes  in syntax input("enter the name")
    otherwise   get in  (or)anything   rather string  casting   use   input(int("enter the number"))
+ 
