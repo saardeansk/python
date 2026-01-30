@@ -26,6 +26,7 @@ for i in range (0,n):
              print("Acidic")
          else:
              print("Neutral")
+
       else:
         print("enter the valid number between the 0-14")
    except ValueError:
