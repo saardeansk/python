@@ -11,7 +11,7 @@ OR →  Setting
 XOR →  Encryption   /   Toggle
 NOT →   Invert
 << → Multiply  
->> →   Divide.   
+>> →   Divide.    
 examples: 
 x=10 
 t=str(x)b  
