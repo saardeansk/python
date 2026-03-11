@@ -5,7 +5,7 @@ from werkzeug.utils import secure_filename
 import cv2
 import numpy as np 
 from PIL import Image 
-import sqlite3
+import sqlite3     
 
 app = Flask(__name__) 
 app.secret_key = "plantdoctor_secret"
@@ -210,6 +210,7 @@ def about():
 # ---- Run App ----
 if __name__ == '__main__':
     app.run(debug=True)
+
 
 
 
