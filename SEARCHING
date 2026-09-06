@@ -1,0 +1,17 @@
+
+   1. BINARY SEARCH 
+def biarysearch (arr,target):
+    start = 0
+    end = len(arr)-1
+    while (start<= end):
+          mid  = (start + end) //2
+          if arr[mid] == target :
+              return arr[mid]
+              return mid
+          elif mid < target:
+              start = mid +1
+          else :
+              end = mid - 1
+arr = list(map(int,input("enter the value of array \n").split()))
+target = int(input("enter the target value \n"))
+print(biarysearch(arr,target))
