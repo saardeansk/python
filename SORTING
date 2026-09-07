@@ -36,6 +36,8 @@ def selectionsort (arr):
         temp = arr[i]
         arr[i] = arr[smallest]
         arr[smallest]= temp
+        print(arr)  # each iteration priint the elements in packed brackets
+        print(*arr) # pass(unpacking the list or arguments)
     return arr
 arr = list(map (int,input ("enter the value of array \n").split()))
 print(selectionsort(arr))
