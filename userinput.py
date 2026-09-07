@@ -1,3 +1,4 @@
+ 1. INTEGER INPUT WITH THE SINGLE VALUE
 c = input(int("Enter  the number of times to use the program"))
 for i in range(i,c):
  a=input("enter  the  name:")
