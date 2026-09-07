@@ -1,5 +1,7 @@
 
        1 . BUBBLE SORTING ......
+ It takes more time.
+ It swap n times using the  bubble one by one.
 def bubblesort (arr):
     for i in range(len(arr)):
         for j in range(0,len(arr)-i-1):
@@ -11,4 +13,25 @@ def bubblesort (arr):
 
 arr = list(map (int,input ("enter the value of array \n").split()))
 print(bubblesort(arr))
+
+      2.SELECTION SORTING....
+It takes same time comparing to bobble sort but it work  in the outer loop
+It is more efficient 
+It can find the minimum value using that swap that element positions.
+      TIME COMPLEXITY : O(nsquare)
+      SPACE COMPLEXITY : O(1)
+ code::
+ 
+def selectionsort (arr):
+    for i in range(len(arr)-1):
+        smallest = i
+        for j in range(i+1,len(arr)):
+            if arr[j] < arr[smallest]:
+              smallest = j
+        temp = arr[i]
+        arr[i] = arr[smallest]
+        arr[smallest]= temp
+    return arr
+arr = list(map (int,input ("enter the value of array \n").split()))
+print(selectionsort(arr))
     
