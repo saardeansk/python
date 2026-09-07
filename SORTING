@@ -2,6 +2,11 @@
        1 . BUBBLE SORTING ......
  It takes more time.
  It swap n times using the  bubble one by one.
+   TIME COMPLEXITY : O(n square)
+   SPACE COMPLEXITY : O(1)
+
+code:
+
 def bubblesort (arr):
     for i in range(len(arr)):
         for j in range(0,len(arr)-i-1):
