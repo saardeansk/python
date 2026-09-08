@@ -1,5 +1,6 @@
 
-       1 . BUBBLE SORTING ......
+       
+   1 . BUBBLE SORTING ......
  It takes more time.
  It swap n times using the  bubble one by one.
    TIME COMPLEXITY : O(n square)
@@ -41,4 +42,23 @@ def selectionsort (arr):
     return arr
 arr = list(map (int,input ("enter the value of array \n").split()))
 print(selectionsort(arr))
+
+     3.INSERTION SORTING....
+    It can take the unsorted elements to fix in the sorteed array(list).
+    Shifting operation.
+
+ code::
+    def insertionsort(arr):
+    for i in range(1,len(arr)):
+        key = arr[i]
+        j = i-1
+        while(j>=0 and arr[j]>key):
+              arr[j+1] = arr[j]
+              j-=1
+        arr[j+1] = key
+    return arr
+
+arr = list(map(int,input("enter the value of array \n").split()))
+print(insertionsort(arr))8
+ 
     
