@@ -47,6 +47,9 @@ print(selectionsort(arr))
     It can take the unsorted elements to fix in the sorteed array(list).
     Shifting operation.
 
+       TIME COMPLEXITY:: O(nsquare)
+       SPACE CCOMPLEXITY ::O(1)
+
  code::
     def insertionsort(arr):
     for i in range(1,len(arr)):
@@ -59,6 +62,37 @@ print(selectionsort(arr))
     return arr
 
 arr = list(map(int,input("enter the value of array \n").split()))
-print(insertionsort(arr))8
+print(insertionsort(arr))
+
+ 4. QUICK SORTING....
+   It can using the divide and conquer function .
+   it specify the starting and ending value  and pivot .
+
+           TIME COMPLEXITY::O(nsquare)
+           SPACE COMPLEXITY::O(nlogn)
+   CODE:
+   def quicksort(arr,low,high):
+    if low < high:
+       p_index = party(arr,low,high)
+       quicksort(arr,low,p_index-1)
+       quicksort(arr,p_index+1,high)
+   
+def party(arr,low,high):
+    pivot = arr[high]
+    i = low -1
+    for j in range(low,high):
+        if arr[j]<pivot:
+           i+=1
+           temp = arr[i]
+           arr[i] = arr[j]
+           arr[j] = temp
+        print(arr)
+    temp = arr[i+1]
+    arr[i+1]=arr[high]
+    arr[high] = temp
+    return i+1
+arr = list(map(int,input("enter the value of array \n").split()))
+print(quicksort(arr,0,len(arr)-1))
+
  
     
