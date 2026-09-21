@@ -1,0 +1,13 @@
+
+a = input("enter the value \n")
+b = a[::-1]
+if a == b:
+   print("palindrome")
+   print(b)
+else:
+   print("not a palindrome")
+
+
+      
+
+    
