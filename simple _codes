@@ -24,3 +24,19 @@ def fun (arr):
             
 arr=list(map(int,input("enter array \n").split()))
 fun(arr)
+
+   3.armstrong 
+
+
+def f(a,n):
+    j=str(a)
+    t=len(j)
+    m=0
+    for ch in j:
+        m+=int(ch)**t
+    if  ch == a:
+        print("armstrong")
+    else:
+        print("not armstrong")
+a = int (input("enter the value \n"))
+f(a)
