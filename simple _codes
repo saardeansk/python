@@ -40,3 +40,21 @@ def f(a):
         print("not armstrong")
 a = int (input("enter the value \n"))
 f(a)
+
+  4.n value of fibonacci series
+
+
+def f(n):
+  if n>=0:
+     a,b =0,1
+     for i in range(n):
+         print(a,end=" ")
+         a,b = b, a+b
+   
+n = int(input("enter the value \n"))
+f(n)
+
+
+ 5.nth position of fibonacci series
+
+
