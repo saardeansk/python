@@ -28,7 +28,7 @@ fun(arr)
    3.armstrong 
 
 
-def f(a,n):
+def f(a):
     j=str(a)
     t=len(j)
     m=0
