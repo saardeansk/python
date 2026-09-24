@@ -71,4 +71,18 @@ def f(n):
 n = int(input("enter the value \n"))
 print(f(n))
 
+6.remove duplicate and sum all values
+
+  def rr(arr):
+    m=set()
+    total=0
+    for i in arr:
+        if i not in m:
+           m.add(i)
+           total+=i
+    print(total)
+arr = list(map(int,input("enter the value").split()))
+rr(arr)
+      
+
 
