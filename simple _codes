@@ -98,6 +98,21 @@ rr(arr)
     print("second largest nnumber in the array :" ,arr[1])
 arr=list(map(int,input("enter array \n").split()))
 f(arr)
+
+ 8.count repeated values used to identify repeated values
+
+   def marr(ss):
+    fre={}
+    for it in ss:
+        if it in fre:
+           fre[it] +=1
+        else:
+           fre[it] =1
+    print(ss)
+    print(fre)
+mm = input("enter \n")
+ss = mm.split()
+marr(ss)
       
 
 
