@@ -113,6 +113,22 @@ f(arr)
 mm = input("enter \n")
 ss = mm.split()
 marr(ss)
-      
+
+   9.You need to find how many different ways s can be written as a sum of consecutive positive integers.
+
+def f(a):
+    count = 0
+    for i in range(1,a+1):
+        total =0
+        for j in range(i,a+1):
+            total +=j
+            if total == a:
+               count +=1
+               break
+            if total>a:
+               break
+    return count
+a= int(input("enter the input"))
+print(f(a))
 
 
