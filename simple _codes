@@ -71,18 +71,25 @@ def f(n):
 n = int(input("enter the value \n"))
 print(f(n))
 
-6.remove duplicate and sum all values
+6. find duplicate and remove duplicate and sum all values
 
-  def rr(arr):
-    m=set()
-    total=0
+def f(arr):
+    s =set()
+    m =set()
+    total =0
     for i in arr:
-        if i not in m:
+        if i in s:
            m.add(i)
-           total+=i
-    print(total)
-arr = list(map(int,input("enter the value").split()))
-rr(arr)
+        else:
+           s.add(i)
+           total +=i
+    listed =list(m)
+    print("duplicated value:",listed)
+    print(s) 
+    return arr
+arr = list(map(int,input("enter the array input \n").split()))
+print(f(arr))
+          
 
 7.Second largest element in the array(Selection sort)
 
