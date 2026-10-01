@@ -131,4 +131,12 @@ def f(a):
 a= int(input("enter the input"))
 print(f(a))
 
+10.reverse array
 
+def f(arr):
+    s = arr[::-1]
+    print(s) 
+    return arr
+arr = list(map(int,input("enter the array input \n").split()))
+print(f(arr))
+          
