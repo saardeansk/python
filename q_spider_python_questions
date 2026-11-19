@@ -1,0 +1,29 @@
+1.to print ascii value of  given character if given charaacter in uppercase .
+if s.isupper() == True:  (or) s.isupper()
+	print(ord(s))
+s=eval(input(" enter the character"))	    
+2.to return the cube of given number if the given number is divisible in 8 or 6.
+s=eval(input("enter the value"))
+if s%6 ==0 or s%9 ==0:
+	print(s*s*s)
+3.to check whether the given integer is in three  digits.
+s = eval(input("enter the number")
+if s > 99 and s<1000:
+	print("yes given number in three digits")
+4.to check whether last digit is 5
+s = eval(input("enter  the number")
+if a%10 ==5:
+	print ("last digit is end with 5")
+5.check whether the given data is float datatype
+s =eval(input("ente the number")
+if type(s)==float:
+	print("float point")
+6.enter data is single value data
+if len(s) ==1:
+	print ("single value data")
+7.check whether thegiven character is digit
+if s.isdigit():	
+	print("the given character is the digit")
+8.check whether the given integer is multiple of 3
+if s % 3 == 0:
+	print("the given integer is multiple of 3")
