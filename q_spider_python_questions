@@ -1,3 +1,4 @@
+date : 18-11-26
 1.to print ascii value of  given character if given charaacter in uppercase .
 if s.isupper() == True:  (or) s.isupper()
 	print(ord(s))
@@ -27,3 +28,12 @@ if s.isdigit():
 8.check whether the given integer is multiple of 3
 if s % 3 == 0:
 	print("the given integer is multiple of 3")
+date :19-11-26
+9. to check whether the given data sis mutable or not 
+a = eval(input("enter the value"))
+print(type(a))
+if type(a) in (set,dict,list):
+	print("mutable")
+else:
+	print("immutable")
+
