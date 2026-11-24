@@ -36,4 +36,95 @@ if type(a) in (set,dict,list):
 	print("mutable")
 else:
 	print("immutable")
+date :21-11-2026
+def pro(a):
+    if a.isupper():
+        print ("upper")
+    elif a.islower():
+        print("lower")
+    elif a.isdigit():
+        print("digit")
+    else:
+        print("special_characters")
+a =eval(input("enter the character"))
+pro(a)
+def pro(a):
+    if a>= 0 and a<10:
+        print ("single_digit")
+    elif a>=10 and a<100:
+        print("two_digit")
+    elif a>=100 and a<1000:
+        print("three_digit")
+    else:
+        print("more than three digits")
+a =eval(input("enter the number"))
+pro(a)
+def pro(a):
+    if a>b and a>c:
+        print ("the a  greatest :  ", a)
+    elif b>c and b>a:
+        print("the b greatest : ", b)
+    else :
+        print("the c is greater : ",c)
+    
+a =eval(input("enter the first"))
+b =eval(input("enter the second"))
+c =eval(input("enter the third"))
+pro(a)
+def pro(a):
+    if a<b and a<c:
+        print ("the a  smallest :  ", a)
+    elif b<c and b<a:
+        print("the b smallest : ", b)
+    else :
+        print("the c is smallest : ",c)
+    
+a =eval(input("enter the first number :"))
+b =eval(input("enter the second number : "))
+c =eval(input("enter the third number : "))
+pro(a)
+def pro(a,b):
+    if a==b:
+        print ("the two values are equal :  " )
+    elif a<b:
+        print("the a is greater value comparing  from two values: ",a )
+    else :
+        print("the a is greater  value comparing fro m two values : ",b)
+    
+a =eval(input("enter the first number :"))
+b =eval(input("enter the second number : "))
+pro(a,b)""
+a =eval(input("enter the first"))
+b =eval(input("enter the second"))
+c =eval(input("enter the third"))
+pro(a)
+def pro(a):
+    if type(a) == str:
+        if a.islower():
+            print ("the lower to uppercase  : ",a.upper())
+        elif a.isupper():
+            print("the uppercase to lwercase : ",a.lower())
+        elif type(a) == int :
+            print("the   digit value remainder should be an : ", a%3)
+    else:
+        print("the asci value ",ord(a))
+    
+a =eval(input("enter the  value you what to check  that which value :"))
+pro(a)
+def pro(a):
+    if a%3 ==0:
+        print ("Fizz" )
+    elif a%5==0:
+        print("buzz" )
+    elif a%3 ==0 and a%5==0:
+        print("Fizzbuzz")
+    else :
+        print("it is not divisible by 3 and 5")
+    
+a =eval(input("enter the first number :"))
+pro(a)
+
+
+
+
 
