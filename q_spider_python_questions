@@ -1,7 +1,7 @@
 date : 18-11-26
 1.to print ascii value of  given character if given charaacter in uppercase .
 if s.isupper() == True:  (or) s.isupper()
-	print(ord(s))
+	print(ord(s)) 
 s=eval(input(" enter the character"))	    
 2.to return the cube of given number if the given number is divisible in 8 or 6.
 s=eval(input("enter the value"))
