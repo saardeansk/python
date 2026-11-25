@@ -1,4 +1,4 @@
-date : 18-11-26
+date : 18-11-26(if statement )
 1.to print ascii value of  given character if given charaacter in uppercase .
 if s.isupper() == True:  (or) s.isupper()
 	print(ord(s)) 
@@ -28,15 +28,70 @@ if s.isdigit():
 8.check whether the given integer is multiple of 3
 if s % 3 == 0:
 	print("the given integer is multiple of 3")
-date :19-11-26
-9. to check whether the given data sis mutable or not 
+
+
+date :19-11-26 (if else)
+1. to check whether the given data sis mutable or not 
 a = eval(input("enter the value"))
 print(type(a))
 if type(a) in (set,dict,list):
 	print("mutable")
 else:
 	print("immutable")
-date :21-11-2026
+"""
+2.the given value is digit or not  
+a = eval(input("enter the value"))
+if a.isdigit():
+	print("digitss")
+else:
+	print("not_digits")
+3.check whether the given value should be special character or not 
+a = input("enter the value")
+if not a.isalnum():
+	print("special")
+else:
+	print("not")
+4.check whether the given list contain middle value or not.
+a = eval(input("enter the value"))
+if len(a) %2 != 0 :
+	print("middle contain")
+else:
+	print("not middle value")
+5.check whether given number is even or oddx
+a = eval(input("enter the value"))
+if a%2==0 :
+	print("even_number")
+else:
+	print("odd")
+6.find the first greatest element 
+a = input("enter the value")
+b = input("enter the value")
+if a >= b:
+    print("the a is greatest ",a)
+else:
+    print("the b is greatest ",b)
+6. to find the greatest element from two elements.(using max function)
+a = input("enter the value")
+b = input("enter the value")
+print(max(a,b))
+7.check two elements are pointing the same memory location.
+a = eval(input("enter the value"))
+b = eval(input("enter the value"))
+if a is b :
+    print("same memory location : ", a ,"=", b)
+else:
+    print("not same location ")
+8. check whether  tuple have length 2 and check tuple is homogenous or not 
+a = eval(input("enter the value"))
+if type(a[i]) == type(a[i]) and len(a) == 2:
+   print ("the homogeneous tuple values ")
+else:
+   print ("the given tuple elements   heterogeneous")
+9.check whether the string is palindrome or not """
+a = input("enter the value")
+print(a.index(-1,len(a)))
+
+date :21-11-2026 (if elif)
 def pro(a):
     if a.isupper():
         print ("upper")
@@ -123,6 +178,45 @@ def pro(a):
     
 a =eval(input("enter the first number :"))
 pro(a)
+date: 24-12-26   (nested if else,elif)
+to find the second greatest element from three elements
+to find the first greatest element from three elements 
+1. to find the second greatest element in the four numbers.
+a = eval(input("enter the value"))
+b = eval(input("enter the value"))
+c = eval(input("enter the value"))
+d = eval(input("enter the value"))
+if a>= b and a>=d and a>=c :
+    if b>=c and b>=d:
+        print("b  is second greater",b)
+    elif c>=b and c>=d:
+        print("c is second greater",c)
+    else:        
+        print("d is second greater",d)
+elif c>= b and c>=d and c>=a :
+    if b>=a and b>=d:
+        print("b  is second greater",b)
+    elif a>=b and a>=d:
+        print("a is second greater",a)
+    else:        
+        print("d is second greater",d)
+elif b>= d and b>=a and b>=c :
+    if a>=c and a>=d:
+        print("a  is second greater",a)
+    elif c>=a and c>=d:
+        print("c is second greater",c)
+    else:        
+        print("d is second greater",d)
+else:
+    if a>=c and a>=b:
+        print("a  is second greater",a)
+    elif c>=b and c>=a:
+        print("c is second greater",c)
+    else:        
+        print("b is second greater",b)
+
+
+
 
 
 
