@@ -282,3 +282,36 @@ while n > 0:
     n = n // 10
 
 print("Reversed number:", rev)
+8. to convert the given string to upper to lower and lower to upper without swapcase
+a=input("enter the string")
+i=0
+new=''
+while i<len(a):
+    if a[i].isupper():
+        new =new+a[i].lower()
+    elif a[i].islower():
+        new = new+a[i].upper()
+    else:
+        new = new+a[i]
+    i=i+1
+print(f"the  converted string {new}")
+9.to extract only digits from list
+a=eval(input("enter the list values"))
+di_list =[]
+i=0
+while i<len(a):
+    if a[i].isdigit():
+        di_list.append(a[i])
+    i=i+1
+print("digits from the given list",di_list)
+10.to extract palindrome string in the list.
+a=eval(input("enter the list"))
+st_li=[]
+i=0
+while i< len(a):
+    if type(a[i]) == str:
+        if a[i] == a[i][::-1]:
+            st_li.append(a[i])
+    i=i+1
+print(st_li)
+
