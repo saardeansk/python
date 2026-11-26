@@ -238,18 +238,47 @@ i=1
 while i<=10:
     print(i)
     i=i+1
-4.print even numbers"""
+4.print even number
 a=int(input("enter the even number ending"))
 i=2
 while i<=a:
     print(i)
     i=i+2
 
+5.identify vowels in given string and remove duplicates 
+a =input("enter the string")
+vow =''
+i=0
+while i<len(a):
+    if a[i] in 'AEIOUaeiou':
+        vow=a[i]+vow
+    i=i+1
+vow=set(vow)
+print(vow)
+6.separate the upper ,lower,special character,digits in the string
+a =input("enter the string")
+upp=''
+low=''
+spe=''
+dig=''
+i=0
+while i<len(a):    
+    if a[i].isupper():
+        upp=a[i]+upp
+    elif a[i].islower():
+        low=a[i]+low
+    elif a[i].isdigit():
+        dig=a[i]+dig
+    else:
+        spe=a[i]+spe
+    i=i+1
+print(upp,low,dig,spe)
+7.to reverse the integer value witout convert string
+n = int(input("Enter a number: "))
+rev = 0
 
+while n > 0:
+    rev = rev * 10 + n % 10
+    n = n // 10
 
-
-
-
-
-
-
+print("Reversed number:", rev)
