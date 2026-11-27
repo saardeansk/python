@@ -314,6 +314,20 @@ while i< len(a):
             st_li.append(a[i])
     i=i+1
 print(st_li)
+11.login if user and password is correct if not again and again show user and password input from attime
+
+i=0
+user ="mani0098"
+pas ="l23456mani"
+while i==0:
+    username=input("enter the username")
+    password =input("enter the password")
+    if username==user and password == pas:
+       i=i+1
+       print("login sucess")
+    else:
+       print("invalid username or password")
+      
 
 
 Technique:
