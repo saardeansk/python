@@ -315,3 +315,89 @@ while i< len(a):
     i=i+1
 print(st_li)
 
+
+Technique:
+digit manipulation(perform operation in exact integer)
+two things used: %,//
+% : for extract the last digit of the given input
+// : to remove the last digit (for move to the second last digit)
+examples:
+1. to check palindrome the given integer without using string slicing
+n = int(input("Enter a number: "))
+orig = n
+rev = 0
+while n > 0:
+    rev = rev * 10 + n % 10
+    n = n // 10
+print(rev)
+if rev == orig:
+   print("palindrome")
+else:
+   print("not a palindrome")
+2.to sum the digits
+a=int(input("enter the value"))
+summ=0
+while a > 0:
+    summ =summ+a%10
+    a=a//10
+print(summ)
+3.to sum the even numbers and odd numbers
+a=int(input("enter the value"))
+odd=0
+even=0
+while a > 0:
+    di=a%10
+    if di%2 == 0:
+       even=even+di
+       a=a//10
+    else:
+       odd=odd+di
+       a=a//10
+print(f"the sum odd numbers: {odd}")
+print(f"the sum of even numbers : {even}")
+4.count the digits in given integer.
+a=int(input("enter the integer "))
+count=0
+while a>0:
+    count=count+1
+    a=a//10
+print(count)
+5.to find the largest digit in given integer
+a=int(input("enter the integer value"))
+lar=0
+while a > 0:
+    di = a%10
+    if lar < di:
+        lar = di
+    a=a//10
+print(f"the largest digit in the given value :{lar}")
+6.to find the smallest digit in giiven value
+a=int(input("enter the integer value"))
+small=0
+while a > 0:
+    di = a%10
+    if small > di:
+        small = di
+    a=a//10
+print(f"the smallest digit in the given value :{small}")
+7.check armstrong number or not
+a=int(input("enter the integer value"))
+b =a
+c = b
+sum=0
+count = 0
+while a > 0:
+    count=count+1
+    a=a//10
+while b>0:
+    d=b%10
+    sum = sum+d**count
+    b=b//10
+if sum == c:
+   print("armstrong: ",c)
+else:
+   print("not a armstrong")
+ 
+
+
+
