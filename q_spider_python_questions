@@ -273,7 +273,7 @@ while i<len(a):
         spe=a[i]+spe
     i=i+1
 print(upp,low,dig,spe)
-7.to reverse the integer value witout convert string
+7.to reverse the integer value witout convert string(witout use the string slicing)
 n = int(input("Enter a number: "))
 rev = 0
 
