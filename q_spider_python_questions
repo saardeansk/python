@@ -1,5 +1,5 @@
 date : 18-11-26(if statement )
-1.to print ascii value of  given character if given charaacter in uppercase .
+1.to print asci value of  given character if given charaacter in uppercase .
 if s.isupper() == True:  (or) s.isupper()
 	print(ord(s)) 
 s=eval(input(" enter the character"))	    
