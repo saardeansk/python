@@ -1,4 +1,7 @@
+
+1. conditional statements 
 date : 18-11-26(if statement )
+
 1.to print asci value of  given character if given charaacter in uppercase .
 if s.isupper() == True:  (or) s.isupper()
 	print(ord(s)) 
@@ -28,7 +31,7 @@ if s.isdigit():
 8.check whether the given integer is multiple of 3
 if s % 3 == 0:
 	print("the given integer is multiple of 3")
-
+-----------------------------------------------------------------------------------------------------------
 
 date :19-11-26 (if else)
 1. to check whether the given data sis mutable or not 
@@ -38,7 +41,6 @@ if type(a) in (set,dict,list):
 	print("mutable")
 else:
 	print("immutable")
-"""
 2.the given value is digit or not  
 a = eval(input("enter the value"))
 if a.isdigit():
@@ -88,10 +90,15 @@ if type(a[i]) == type(a[i]) and len(a) == 2:
 else:
    print ("the given tuple elements   heterogeneous")
 9.check whether the string is palindrome or not """
-a = input("enter the value")
-print(a.index(-1,len(a)))
+a = input("enter the string data : ")
+if a ==  a[::-1]:
+   print("palindrome")
+else:
+   print("not a palindrome")
+-------------------------------------------------------------------------------------------------------
 
-date :21-11-2026 (if elif)
+date :21-11-2026 (if   elif)
+1. to extract the uppercaase ,lowercase,integer and special characters.
 def pro(a):
     if a.isupper():
         print ("upper")
@@ -101,8 +108,9 @@ def pro(a):
         print("digit")
     else:
         print("special_characters")
-a =eval(input("enter the character"))
+a =eval(input("enter the integer"))
 pro(a)
+2.to check given integer is single digit,two digit,three digit or more than three digits.
 def pro(a):
     if a>= 0 and a<10:
         print ("single_digit")
@@ -114,18 +122,19 @@ def pro(a):
         print("more than three digits")
 a =eval(input("enter the number"))
 pro(a)
-def pro(a):
+3.to find the greatest value from the three values
+def pro(a,b,c):
     if a>b and a>c:
         print ("the a  greatest :  ", a)
     elif b>c and b>a:
         print("the b greatest : ", b)
     else :
-        print("the c is greater : ",c)
-    
+        print("the c is greater : ",c)   
 a =eval(input("enter the first"))
 b =eval(input("enter the second"))
 c =eval(input("enter the third"))
-pro(a)
+pro(a,b,c)
+4.to find the smallest value from the three values
 def pro(a):
     if a<b and a<c:
         print ("the a  smallest :  ", a)
@@ -133,11 +142,11 @@ def pro(a):
         print("the b smallest : ", b)
     else :
         print("the c is smallest : ",c)
-    
 a =eval(input("enter the first number :"))
 b =eval(input("enter the second number : "))
 c =eval(input("enter the third number : "))
 pro(a)
+5.to check the relation between the two values
 def pro(a,b):
     if a==b:
         print ("the two values are equal :  " )
@@ -148,24 +157,21 @@ def pro(a,b):
     
 a =eval(input("enter the first number :"))
 b =eval(input("enter the second number : "))
-pro(a,b)""
-a =eval(input("enter the first"))
-b =eval(input("enter the second"))
-c =eval(input("enter the third"))
-pro(a)
+pro(a,b)
+6.to convert the given string if upper to lower and if  lower  to upper and if digit divide using 3 give remainder and special character give ascii value of it.
 def pro(a):
     if type(a) == str:
         if a.islower():
             print ("the lower to uppercase  : ",a.upper())
         elif a.isupper():
             print("the uppercase to lwercase : ",a.lower())
-        elif type(a) == int :
+    elif type(a) == int :
             print("the   digit value remainder should be an : ", a%3)
     else:
         print("the asci value ",ord(a))
-    
 a =eval(input("enter the  value you what to check  that which value :"))
 pro(a)
+7.the integer value is divisible by 3 print 'Fizz' and if divisible by 5 print 'buzz' and divible by both 3 an 5 print 'fizzbuzz'.
 def pro(a):
     if a%3 ==0:
         print ("Fizz" )
@@ -175,13 +181,46 @@ def pro(a):
         print("Fizzbuzz")
     else :
         print("it is not divisible by 3 and 5")
-    
 a =eval(input("enter the first number :"))
 pro(a)
+-------------------------------------------------------------------------------------------------------------
 date: 24-12-26   (nested if else,elif)
-to find the second greatest element from three elements
+1.to find the second greatest element from three elements
+a = eval(input("enter the value"))
+b = eval(input("enter the value"))
+c = eval(input("enter the value"))
+if a>= b and a>=c :
+    if b>=c:
+        print("b  is second greater",b)
+    else:        
+        print("c is second greater",c)
+elif c>= b and c>=a :
+    if b>=a:
+        print("b  is second greater",b)
+    else:
+        print("a is second greater",a)
+elif  b>=a and b>=c :
+    if a>=c :
+        print("a  is second greater",a)
+    else:
+        print("c is second greater",c)
+
 to find the first greatest element from three elements 
-1. to find the second greatest element in the four numbers.
+a = eval(input("enter the value"))
+b = eval(input("enter the value"))
+c = eval(input("enter the value"))
+if a > b:
+   if a>c:
+       print("a is  greater",a)
+   else:
+       print("c is greater",c)
+else:
+    if b >c :
+        print("b is greater",b)
+    else:
+        print("c is  greater",c)
+    
+3. to find the second greatest element in the four numbers.
 a = eval(input("enter the value"))
 b = eval(input("enter the value"))
 c = eval(input("enter the value"))
@@ -215,8 +254,8 @@ else:
     else:        
         print("b is second greater",b)
 
-
-2.   looping 
+------------------------------------------------------------------------------------------------------------------
+2.   looping  statements
    while  date:25-11-26
 
 1.factorial
@@ -328,7 +367,7 @@ while i==0:
     else:
        print("invalid username or password")
       
-
+-------------------------------------------------------------------------------------------------------------
 
 Technique:
 digit manipulation(perform operation in exact integer)
@@ -411,7 +450,7 @@ if sum == c:
    print("armstrong: ",c)
 else:
    print("not a armstrong")
- 
+---------------------------------------------------------------------------------------------------------------------- 
 
 
 
